@@ -1,8 +1,9 @@
 module.exports = {
   purge: [
-          './src/assets/tailwind.css',
-          './src/App.vue',
-          './src/components/Hellloword.vue',
+          '/src/assets/tailwind.css',
+          '/src/App.vue',
+          '/src/components/Hellloword.vue',
+          '/public/index.html',
         ],
   target: 'relaxed',
   prefix: '',
